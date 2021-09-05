@@ -1,0 +1,12 @@
+.alignCards {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .alignCards {
+    flex-direction: column;
+  }
+}
